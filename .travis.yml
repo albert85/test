@@ -10,4 +10,4 @@ before_script:
 
 script:
 
- - npm tun test
+ - npm run test
