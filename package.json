@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "nodemon --watch server --exec babel-node -- src/app.js",
-    "test": "mocha test/test.js --compilers js:babel-register"
+    "test": "mocha --require babel-core/register test/test.js"
   },
   "repository": {
     "type": "git",
