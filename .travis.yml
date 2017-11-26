@@ -1,7 +1,7 @@
 language: node_js
 
 services:
-  - postgresgl
+  - "postgresgl"
 
   node_js:
 
